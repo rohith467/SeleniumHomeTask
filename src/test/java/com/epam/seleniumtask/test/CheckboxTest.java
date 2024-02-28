@@ -13,7 +13,7 @@ public class CheckboxTest {
     WebDriver webDriver;
     CheckboxService service;
     Utility util;
-    @Parameters("inputWebDriver")
+    @Parameters("browser")
     @BeforeTest
     public void setWebDriver(@Optional("chrome")String inputWebDriver){
         webDriver= WebDriverSingleton.createWebDriver(inputWebDriver);
