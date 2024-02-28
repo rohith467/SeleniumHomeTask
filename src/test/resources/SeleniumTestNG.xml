@@ -1,6 +1,6 @@
 <suite name = "Selenium Suite" parallel="classes" threadCount="2">
     <test name="Selenium Tests">
-        <parameter name="browser" value="{$browser}"/>
+        <parameter name="browser" value="${browser}"/>
         <classes>
             <class name="com.epam.seleniumtask.test.CheckboxTest"/>
         </classes>
