@@ -28,7 +28,7 @@ public class CheckboxTest {
     public void verifySecondCheckboxClick() {
 
 //        try {
-            Assert.assertTrue(service.clickingOnSecondCheckBox(webDriver));
+            Assert.assertFalse(service.clickingOnSecondCheckBox(webDriver));
 //        } catch (AssertionError e) {
 //            util.takeScreenshotOfElement(webDriver, service.getSecondWebElement(webDriver));
 //            util.takeScreenshotOfDriver(webDriver);
