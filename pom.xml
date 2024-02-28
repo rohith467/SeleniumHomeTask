@@ -49,7 +49,10 @@
         <configuration>
           <suiteXmlFiles>
             <suiteXmlFile>C:\Users\bindigari_rohith\Desktop\SeleniumHomeTask\src\test\resources\SeleniumTestNG.xml</suiteXmlFile>
-          </suiteXmlFiles>
+          </suiteXmlFiles>       
+          <systemPropertyVariables>
+            <browser>{$browser}</browser>
+          </systemPropertyVariables>
         </configuration>
       </plugin>
       <plugin>
