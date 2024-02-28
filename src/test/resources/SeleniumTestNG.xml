@@ -1,0 +1,14 @@
+<suite name = "Selenium Suite" parallel="classes" threadCount="2">
+    <test name="Selenium Tests">
+        <parameter name="inputWebDriver" value="chrome"/>
+        <classes>
+            <class name="com.epam.seleniumtask.test.CheckboxTest"/>
+        </classes>
+    </test>
+<!--    <parameter name="inputWebDriver" value="edge"/>-->
+<!--    <test name="Selenium Tests with chrome">-->
+<!--        <packages>-->
+<!--            <package name="com.epam.seleniumtask.test"/>-->
+<!--        </packages>-->
+<!--    </test>-->
+</suite>

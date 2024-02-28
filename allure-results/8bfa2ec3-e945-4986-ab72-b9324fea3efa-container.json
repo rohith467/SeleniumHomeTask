@@ -1,0 +1,1 @@
+{"uuid":"8bfa2ec3-e945-4986-ab72-b9324fea3efa","name":"Selenium Suite","children":["dcc0297a-34b3-4612-b962-73f8b0a4d06e"],"befores":[],"afters":[{"name":"deleteInstance","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1709023971231,"stop":1709023971292}],"start":1709023964099,"stop":1709023971293}
