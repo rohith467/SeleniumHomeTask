@@ -15,7 +15,7 @@ public class CheckboxTest {
     Utility util;
     @Parameters("browser")
     @BeforeTest
-    public void setWebDriver(@Optional("chrome")String inputWebDriver){
+    public void setWebDriver(String inputWebDriver){
         webDriver= WebDriverSingleton.createWebDriver(inputWebDriver);
         service=new CheckboxService();
         util=new Utility();
