@@ -51,7 +51,7 @@
             <suiteXmlFile>C:\Users\bindigari_rohith\Desktop\SeleniumHomeTask\src\test\resources\SeleniumTestNG.xml</suiteXmlFile>
           </suiteXmlFiles>       
           <systemPropertyVariables>
-            <browser>{$browser}</browser>
+            <browser>${browser}</browser>
           </systemPropertyVariables>
         </configuration>
       </plugin>
